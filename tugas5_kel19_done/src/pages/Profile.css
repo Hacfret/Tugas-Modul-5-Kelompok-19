@@ -1,0 +1,66 @@
+.profile-container {
+  display: flex;
+  flex-direction: row; /* Mengubah menjadi row */
+  padding: 50px;
+}
+
+.card-profile {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  width: 90%; /* Sesuaikan lebar sesuai kebutuhan (misalnya, 100%) */
+  text-align: left;
+  transition: transform 0.2s;
+  margin-left: 45px;
+  margin-bottom: 50px;
+  /* Menambahkan margin antara card */
+}
+
+.card-profile:last-child {
+  margin-right: 0; /* Menghapus margin kanan untuk card terakhir */
+}
+
+.card-profile:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  margin: 5px 0;
+  margin-bottom: 35px;
+}
+
+.card-profile img {
+  width: 100px; /* Sesuaikan lebar gambar sesuai kebutuhan */
+  height: 100px; /* Sesuaikan tinggi gambar sesuai kebutuhan */
+  border-radius: 50%; /* Membuat gambar bulat */
+  object-fit: cover; /* Menyusun gambar ke dalam lingkaran */
+}
+
+.rowcoba {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Mengatur 2 kolom dengan lebar yang sama */
+  gap: 20px; /* Menambahkan jarak antara elemen-elemen */
+}
+
+.column {
+  grid-column: span 1; /* Mengisi 1 kolom */
+  margin-bottom: 20px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+#movies {
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+/* Movie1.css */
+.movie-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.movie-card h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.movie-card img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.movie-card h2 {
+  font-size: 18px;
+}
+
+.movie-card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
