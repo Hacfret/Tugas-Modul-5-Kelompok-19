@@ -4,3 +4,4 @@
 
 1. install dulu -> npm install react-router-dom react-icons
 2. lalu copas isi folder (overwrite)
+3. (atau boleh sebaliknya)
