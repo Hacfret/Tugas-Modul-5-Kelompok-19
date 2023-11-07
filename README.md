@@ -2,4 +2,5 @@
 
 !! Tidak termasuk node_modules !!
 
-install dulu -> npm install react-router-dom react-icons
+1. install dulu -> npm install react-router-dom react-icons
+2. lalu copas isi folder (overwrite)
